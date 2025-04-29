@@ -74,7 +74,7 @@ function App() {
       </main>
       
       <footer className={styles.footer}>
-        <p>© {new Date().getFullYear()} CannabisAI. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} CannabisAI. Made by all. </p>
       </footer>
     </div>
   );
