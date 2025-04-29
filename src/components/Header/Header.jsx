@@ -5,7 +5,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.logoContainer}>
-          <img src="./cannabisai/src/assets/cannabisai-logo.png" alt="CannabisAI Logo" className={styles.logo} />
+          <img src="./cannabisai/assets/cannabisai-logo.png" alt="CannabisAI Logo" className={styles.logo} />
           <span className={styles.logoText}>CannabisAI</span>
         </div>
       </div>

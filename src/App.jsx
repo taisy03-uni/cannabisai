@@ -42,14 +42,14 @@ function App() {
               onClick={() => setActiveOS('mac')}
               className={`${styles.osButton} ${activeOS === 'mac' ? styles.active : ''}`}
             >
-              <img src="./cannabisai/src/assets/mac-icon.svg" alt="Mac" className={styles.osIcon} />
+              <img src="./cannabisai/assets/mac-icon.svg" alt="Mac" className={styles.osIcon} />
               Mac
             </button>
             <button 
               onClick={() => setActiveOS('windows')}
               className={`${styles.osButton} ${activeOS === 'windows' ? styles.active : ''}`}
             >
-              <img src="./cannabisai/src/assets/windows-icon.svg" alt="Windows" className={styles.osIcon} />
+              <img src="./cannabisai/assets/windows-icon.svg" alt="Windows" className={styles.osIcon} />
               Windows
             </button>
           </div>
