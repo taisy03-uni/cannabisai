@@ -1,0 +1,111 @@
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #f0f7fd, white);
+  }
+  
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    width: 100%;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #141e53;
+    margin-bottom: 1.5rem;
+  }
+  
+  .titleHighlight {
+    color: #3e5bdf;
+  }
+  
+  .subtitle {
+    font-size: 1.25rem;
+    color: #4b5563;
+    max-width: 42rem;
+    margin: 0 auto 2rem;
+  }
+  
+  .osSelector {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .osButton {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background-color: #e5e7eb;
+    color: #374151;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .osButton.active {
+    background-color: #3e5bdf;
+    color: white;
+  }
+  
+  .osIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .features {
+    margin-bottom: 4rem;
+  }
+  
+  .sectionTitle {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    color: #162a65;
+    margin-bottom: 3rem;
+  }
+  
+  .featuresGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .cta {
+    text-align: center;
+    background-color: #162a65;
+    border-radius: 0.75rem;
+    padding: 2rem;
+    color: white;
+  }
+  
+  .ctaTitle {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .ctaText {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer {
+    background-color: #141e53;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    margin-top: auto;
+  }

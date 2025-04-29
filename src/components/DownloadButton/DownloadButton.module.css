@@ -1,0 +1,33 @@
+.downloadButton {
+  background-color: #236c29;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+}
+
+.downloadButton:hover {
+  background-color: #3e5bdf;
+  transform: translateY(-1px);
+}
+
+.downloadButton:active {
+  transform: translateY(0);
+}
+
+/* Windows-specific style (optional) */
+.windowsButton {
+  background-color: #0078d7;
+}
+
+.windowsButton:hover {
+  background-color: #0062ad;
+}
