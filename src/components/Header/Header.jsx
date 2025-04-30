@@ -1,5 +1,5 @@
 import styles from './Header.module.css';
-import cannabisaiLogo from './assets/cannabisai-logo.png'; // Adjust the path as necessary
+import cannabisaiLogo from './cannabisai-logo.png'; 
 
 export default function Header() {
   return (
